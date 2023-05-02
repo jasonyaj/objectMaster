@@ -1,3 +1,5 @@
+// worked with Ben, Tim, Jake, Jack
+
 const pokemon = Object.freeze([
   { id: 1, name: "Bulbasaur", types: ["poison", "grass"] },
   { id: 5, name: "Charmeleon", types: ["fire"] },

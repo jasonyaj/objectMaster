@@ -25,9 +25,6 @@ const pokemon = Object.freeze([
   { id: 146, name: "Moltres", types: ["fire", "flying"] },
   { id: 148, name: "Dragonair", types: ["dragon"] },
 ]);
-const bListPkmn = pokemon.filter( p => p.name[0] === "B" );
-const pkmnIds = pokemon.map( p => p.id )
-
 const pokeId = pokemon.filter(p => p.id % 3 === 0);
 console.log(pokeId);
 
